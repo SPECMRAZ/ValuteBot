@@ -1,12 +1,16 @@
 {
   "name": "1.1",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Telegram bot",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "start": "nodemon index.js",
-    "build": "node index.js"
+    "start": "node index.js",
+    "build": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "engines": {
+    "node": "14.x"
   },
   "keywords": [],
   "author": "",
